@@ -25,42 +25,47 @@ font-family: 'Source Sans Pro', sans-serif;
   /* adjust this to space out the cards */
   margin: 20px auto;
   overflow: hidden;
-  box-shadow: 2px 5px 15px 0px #0c0c0c94;
+  box-shadow: 7px 7px 7px rgba(224, 175, 175, 0.637);
   background-color: antiquewhite;
+  border-radius: 0px;
 }
 
 .front-side{
-  background-image: url('business\ card\ recto.tif');
+  position: relative;
+  background-image: url('business-card-recto-revised.png');
 }
 
 
 .back-side{
-  background-image: url('business-card-verso.tif')
+  background-image: url('verso-white.png')
 }
-h3{font-family: 'Playfair Display', serif; text-align: center;}
+h3{font-family: 'Playfair Display', serif; text-align: left;color: rgba(255, 0, 157, 0.932); font-weight: 700;}
 
 h5{font-family:'Source Sans Pro', sans-serif;
-font-weight:  400; text-align: center;} 
+font-weight:  400; text-align: left;} 
 
-h6{font-family:'Source Sans Pro', sans-serif; font-weight: 300; text-align: center;} 
+h6{font-family:'Source Sans Pro', sans-serif; font-weight: 400; text-align: left;} 
 
 
 .name{
   display: grid;
   position: relative;
-  margin-top: 270px;
-  margin-left:0px;
-  padding: 0px
+  margin-top: 265px;
+  margin-left:17px;
+    /* padding: 0px */
 
 } 
 
 
 .secondary{
+  margin-top: 15px;
   display: grid;
-  position: relative;
-  margin-left:30px;
+  position: right;
+  margin-left: 18px;
+  margin-right: 10px;
 
 }
+
 
 
 
