@@ -37,34 +37,40 @@ font-family: 'Source Sans Pro', sans-serif;
 
 
 .back-side{
-  background-image: url('verso-white.png')
+  background-image: url('business-card-verso-revised.png')
 }
-h3{font-family: 'Playfair Display', serif; text-align: left;color: rgba(255, 0, 157, 0.932); font-weight: 700;}
+h3{font-family: 'roboto'; text-align: left; font-weight: 700;}
 
-h5{font-family:'Source Sans Pro', sans-serif;
+h5{font-family: 'montserrat';
 font-weight:  400; text-align: left;} 
 
-h6{font-family:'Source Sans Pro', sans-serif; font-weight: 400; text-align: left;} 
+h6{font-family:'montserrat'; font-weight: 400; text-align: left;} 
 
 
 .name{
   display: grid;
   position: relative;
-  margin-top: 265px;
-  margin-left:17px;
+  margin-top: 270px;
+  margin-left:10px;
     /* padding: 0px */
 
 } 
 
 
 .secondary{
-  margin-top: 15px;
+  margin-top: 10px;
   display: grid;
-  position: right;
-  margin-left: 18px;
-  margin-right: 10px;
+  text-align: center;
+  margin-left:10px;
+  
 
 }
+
+
+
+
+
+  
 
 
 
